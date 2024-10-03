@@ -25,5 +25,6 @@ COMMANDS:
 
 EXTRA COMMANDS:
 1) ping
-2) show a message on target machine: message <text (example: hello)>
-3) alert on target system: alert <text (example: hello)>
+2) whoami
+3) show a message on target machine: message <text (example: hello)>
+4) alert on target system: alert <text (example: hello)>
