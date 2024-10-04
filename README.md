@@ -47,3 +47,23 @@ WHAT WILL I ADD/UPGRADE:
 - File Uploader (u can already upload files using curl or wget (example: exec wget/curl ...)
 - USB Spread
 - Persistence (if the file is deleted thanks to another file, it will be recomposed as if nothing had happened)
+
+REQUIREMENTS:
+
+discord.py
+pyautogui
+opencv-python
+pycryptodome
+psutil
+pynput
+browser-history
+
+COMMANDS TO INSTALL:
+
+pip install discord.py
+pip install pyautogui
+pip install opencv-python
+pip install pycryptodome
+pip install psutil
+pip install pynput
+pip install browser-history
